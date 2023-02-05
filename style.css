@@ -1,5 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
 }
 
 h1 { 
@@ -68,18 +70,12 @@ Figcaption {
 li {
     font-size: 25px;
 }
-#about {
 
-}
-
-#work {
-
-}
-
-#contact {
-
-}
 
 .active {
     background-color: #04AA6D;
   }
+
+
+    
+  
