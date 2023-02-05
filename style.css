@@ -1,8 +1,85 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 { 
+    text-align: center;
+    padding: 60px; 
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px; 
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black; 
+}
+
 body {
     background-color: orange;
 }
 img{ 
-    width: 50%;
-    max-height 40vh;
+    width: 25%;
+    max-height: 100vh;
     min-width: 0;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid black;
 }
+
+Figure img:hover {
+    transform:scale(1.5)
+}
+
+Figcaption { 
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+li {
+    font-size: 25px;
+}
+#about {
+
+}
+
+#work {
+
+}
+
+#contact {
+
+}
+
+.active {
+    background-color: #04AA6D;
+  }

@@ -4,18 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <link rel="stylesheet" type="text/css" href="style.css"> 
     <title>Shaniya Kindle's Portfolio</title>
 </head>
+<!-- Intro Section w/ name photo, & links to sections : work, ccontact, etc.. -->
 <body>
-    <h1> Shaniya Kindle</h1>
-   <section> About Me</section> 
+  <nav>
+      <ul>
+        <li><a class="active" href= "#about"> About Me</a></li>
+        <li> <a href="#work">My Work</a></li>
+        <li><a href="#contact"> Contact Me</a></li>
+      </ul>
+
+  </nav>
+  <h1> Shaniya Kindle</h1>
+  <!-- About Me Section -->
+   <section id="about">
+    <h2> About Me</h2> 
+    </section> 
     <p> Welcome! My name is Shaniya Kindle.</p>
-    <img class="me" src="./Assets/IMG_0324.jpg"
-   <section> My Work </section> 
-   <a href="https://keekerr.github.io/Movie-Beer-Roulette/">
+    <img class="me" src="./Assets/IMG_0324.jpg">
+    </img>
+    <!-- My Work Section w/ titled images -->
+    <!-- Images should enlarge when hoovered over -->
+    <!-- When clicked on you are taken to the deplyed application -->
+   <section id="work"> 
+    <h2> My Work </h2>
+
+   <figure><a href="https://keekerr.github.io/Movie-Beer-Roulette/">
    <img class="Movie Roulette" src="./Assets/Screenshot_20221129_061622.png"
-   alt="Movie Roulette Project screenshot"
-   </a>
+   alt="Movie Roulette Project screenshot">
+   </a> <figcaption> Movie Roulette</figcaption></figure>
+  </section>
+   <!-- Contact Info Section  -->
+   <!-- <section id="contact">
+    <form action="action_page.php"> -->
+      <div id="contact">
+     <h2> Contact Info </h2>
+     <ul>
+        <li> <a href="https://github.com/Skindle"> Github </a></li>
+        <li>Email: Shaniyakindle@icloud.com </li>
+     </ul>
+     </div>
+     <!-- <label for="fname">First Name</label>
+     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+ 
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+ 
+     <label for="country">Country</label>
+     <select id="country" name="country">
+       <option value="australia">Australia</option>
+       <option value="canada">Canada</option>
+       <option value="usa">USA</option>
+     </select>
+ 
+     <label for="subject">Subject</label>
+     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+ 
+     <input type="submit" value="Submit">
+    </section>
+  </form> -->
 </body>
 </html>
